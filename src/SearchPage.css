@@ -1,3 +1,7 @@
+.searchPage {
+  font-family: Roboto,arial,sans-serif;
+}
+
 .searchPage__header {
   display:flex;
   position: sticky;
@@ -5,8 +9,9 @@
   background-color: white;
   z-index: 100;
   align-items: flex-start;
-  padding: 30px;
+  padding: 10px;
   border-bottom: 1px solid lightgray;
+  margin-left: 10px;
 }
 
 .searchPage__logo {
@@ -51,4 +56,47 @@
 
 .searchPage__option a {
   margin-left: 5px;
+}
+
+.searchPage__result {
+  margin: 40px 0;
+}
+
+.searchPage__resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPage__results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage__resultTitle {
+  text-decoration: none;
+}
+
+.searchPage__resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 4px;
+}
+
+.searchPage__resultLink {
+  text-decoration: none;
+  color: #3c4043;;
+}
+
+.searchPage__resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage__headerBody {
+  margin-top: -35px;
 }

@@ -9,7 +9,7 @@ import { actionTypes } from './reducer';
 
 
 
-function Search({ hidebuttons = false }) {
+function Search({ hideButtons = false }) {
   const [{}, dispatch] = useStateValue();
 
   const [input, setInput] = useState('');
@@ -34,7 +34,7 @@ function Search({ hidebuttons = false }) {
         <MicIcon />
       </div>
 
-      {!hidebuttons ? (
+      {!hideButtons ? (
         <div className="search__buttons">
           <Button type="submit" onClick={search} 
           variant="outlined">
@@ -44,11 +44,10 @@ function Search({ hidebuttons = false }) {
         </div>
       ): (
         <div className="search__buttons">
-          <Button className="search__buttonsHide" 
-          type="submit" onClick={search} variant="outlined">
+          <Button className="search__buttonsHidden" type="submit" onClick={search} variant="outlined">
             Google Search
           </Button>
-          <Button className="search__buttonsHide" 
+          <Button className="search__buttonsHidden" 
           variant="outlined">I'm Feeling Lucky</Button>
         </div>
       )}

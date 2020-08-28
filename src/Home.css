@@ -14,8 +14,11 @@
 .home__header a {
   margin-right: 20px;
   text-decoration: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  /* color: rgba(0, 0, 0, 0.87); */
   font-size: 15px;
+  color: #000;
+  opacity: 0.75;
+  font-family: arial,sans-serif;
 }
 
 .home__header a:hover {
@@ -31,12 +34,18 @@
 
 .home__headerRight > .MuiSvgIcon-root {
   margin-right: 20px;
+  color: #696969;
+  cursor: pointer;
+}
+
+.home__headerRight:hover > .MuiSvgIcon-root {
+  color: black;
 }
 
 .home__body {
   flex: 1;
   display: flex;
-  margin-top: 10px;
+  margin-top: 50px;
   flex-direction: column;
 }
 

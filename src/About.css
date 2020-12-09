@@ -87,15 +87,58 @@
       z-index: 100;
       align-items: flex-start;
       padding: 10px;
-      border-bottom: 1px solid gray;
+      
       margin-left: 10px;
   }
-
- 
-
 
   .aboutPage__logo {
       object-fit: contain;
       height: 50px;
       margin-right: 50px;
   }
+
+  .about__header {
+      display: flex;
+      border-bottom: 1px solid gray;
+  }
+
+  .about__headerLeft {
+      display: flex;
+  }
+
+  .about__headerRight {
+    display: flex;
+}
+
+.aboutPage__option {
+    display: flex;
+}
+
+.aboutPage__option a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    font-size: 15px;
+    color: #5f6368;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 500;
+    letter-spacing: .01562rem;
+    line-height: 1.375rem;
+    padding: 21px 8px 19px;
+  }
+
+
+  .aboutPage__option--active {
+  border-bottom: 3px solid #1a73e8;
+  color: #202124;
+  }
+
+  .aboutPage__option--active > .MuiSvgIcon-root {
+      color: #202124;
+  }
+
+  .aboutPage__option--active:hover {
+    color: #202124;
+  }
+

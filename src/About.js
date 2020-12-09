@@ -3,13 +3,10 @@ import { Link } from 'react-router-dom';
 import './About.css';
 
 
-
-
-
 function About() {
     return (
         <div className="about">
-            <div className="about_header">
+            <div className="about__header">
                 <div className="about__headerLeft">
                     <Link to="/">
                         <img
@@ -23,7 +20,7 @@ function About() {
                 <div className="about__headerRight">
                     <div className="aboutPage__option">
                         <div className="searchPage__option">
-                            <Link to="/about">About</Link>
+                            <Link to="/about" className="aboutPage__option--active">About</Link>
                         </div>
                         <div className="searchPage__option">
                             <Link to="/products">Products</Link>

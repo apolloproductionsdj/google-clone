@@ -1,0 +1,101 @@
+/* .home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  } */
+
+  /* .home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  } */
+
+  .about {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+  }
+
+  .about_body {
+      flex: 1;
+      display: flex;
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+  }
+
+  h1 {
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: -.03125rem;
+      color: #000;
+      font-size: 4vw;
+      line-height: 1.3em;
+      margin: 0 auto;
+      width: 82%;
+      font-family: "Google Sans Display", Arial, Helvetica, sans-serif;
+  }
+
+  .blue {
+      color: #4285f4;
+  }
+
+  .red {
+      color: #ea4335;
+  }
+
+  .green {
+      color: #34a853;
+  }
+  
+  .yellow {
+      color: #f9ab00;
+  }
+
+  .module-anchor-statement {
+      height: calc(65vh - 57px);
+      max-height: 500px;
+      min-height: 400px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+  
+
+  /* .searchPage__header {
+    display:flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 10px;
+  } */
+
+  .aboutPage__logo {
+      display: flex;
+      position: sticky;
+      top: 0;
+      background-color: white;
+      z-index: 100;
+      align-items: flex-start;
+      padding: 10px;
+      border-bottom: 1px solid gray;
+      margin-left: 10px;
+  }
+
+ 
+
+
+  .aboutPage__logo {
+      object-fit: contain;
+      height: 50px;
+      margin-right: 50px;
+  }

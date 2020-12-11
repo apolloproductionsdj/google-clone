@@ -58,3 +58,12 @@
 .search__buttonsHidden {
   display: none !important
 }
+
+#content {
+  overflow:auto;
+  height: 44px; /*could be whatever*/
+}
+
+li {
+  list-style: none;
+}

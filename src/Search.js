@@ -46,15 +46,22 @@ function Search({ hideButtons = false }) {
           <div id="content">
             <Button variant="outlined">
               <ul id="scrollDown">
-                <li>I'm Feeling Lucky</li>
+
+                <li>
+                  <a data-scroll href="#lucky">I'm Feeling Lucky</a>
+                </li>
                 <br />
                 <br />
                 <br />
-                <li>I'm Feeling Doodley</li>
+                <li>
+                  <a data-scroll href="#doodley">I'm Feeling Doodley</a>
+                </li>
                 <br />
                 <br />
                 <br />
-                <li>I'm Feeling Hungry</li>
+                <li>
+                  <a data-scroll href="#doodley">I'm Feeling Hungry</a>
+                </li>
               </ul>
 
             </Button>

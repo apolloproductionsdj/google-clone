@@ -60,10 +60,19 @@
 }
 
 #content {
-  overflow:auto;
   height: 44px; /*could be whatever*/
+  overflow-y: scroll;
 }
 
 li {
   list-style: none;
 }
+
+#id {
+  position: top;
+}
+
+#id:hover {
+  position: bottom;
+}
+
